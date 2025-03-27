@@ -33,5 +33,73 @@ namespace GSD_HASH.Properties {
                 return ((string)(this["TRABALHOHASHcj3022099ConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("macorexit.smtp.com")]
+        public string endereçoSMTP {
+            get {
+                return ((string)(this["endereçoSMTP"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("587")]
+        public string porta {
+            get {
+                return ((string)(this["porta"]));
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("EF797C8118F02DFB649607DD5D3F8C7623048C9C063D532CC95C5ED7A89A64F")]
+        public string senhaSMTP {
+            get {
+                return ((string)(this["senhaSMTP"]));
+            }
+            set {
+                this["senhaSMTP"] = value;
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=10.125.50.191;Initial Catalog=TRABALHOHASHcj3022099;User ID=aluno;Pas" +
+            "sword=aluno;")]
+        public string LoginConnection {
+            get {
+                return ((string)(this["LoginConnection"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("macoratti.smtp.com")]
+        public string enderecoSMTP {
+            get {
+                return ((string)(this["enderecoSMTP"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("53")]
+        public string portaSMTP {
+            get {
+                return ((string)(this["portaSMTP"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("macorattit@yahoo.com")]
+        public string emailSMTP {
+            get {
+                return ((string)(this["emailSMTP"]));
+            }
+        }
     }
 }
