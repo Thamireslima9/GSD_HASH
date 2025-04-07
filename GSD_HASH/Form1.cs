@@ -165,7 +165,6 @@ namespace GSD_HASH
                 // Criptografa a senha
                 string _hashSenha = Crypto.sha256encrypt(_senha);
 
-                // Chama o método para adicionar o usuário no banco de dados (agora com SQL Server)
                 AdicionaUsuarioNoBD(_nomeUsuario, _hashSenha, _email);
 
                 // Limpa os campos do formulário
