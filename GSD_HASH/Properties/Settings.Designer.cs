@@ -101,5 +101,7 @@ namespace GSD_HASH.Properties {
                 return ((string)(this["emailSMTP"]));
             }
         }
+
+        public string LoginsConnectionString { get; internal set; }
     }
 }
