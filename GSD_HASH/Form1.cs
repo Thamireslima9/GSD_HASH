@@ -182,9 +182,6 @@ namespace GSD_HASH
 
         private void AdicionaUsuarioNoBD(string _nomeUsuario, string _senha, string _email)
         {
-
-
-            // Usando a conexão SQL Server
             using (SqlConnection cn = new SqlConnection(connectionString))  // AQUI você passa a connectionString
             {
                 try
